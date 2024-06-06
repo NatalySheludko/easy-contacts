@@ -1,0 +1,27 @@
+.filter {
+	margin: 0 auto;
+	margin-bottom: 60px;
+  width: 90%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid rgba(17, 12, 46, 0.15);
+  border-radius: 10px;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  outline: 1px solid transparent;
+  border-radius: 4px;
+  border: 1px solid #888;
+  font-size: 15px;
+}
