@@ -1,6 +1,6 @@
-.textLoader {
-	font-weight: 600;
-  color: black;
-  text-align: center;
-  font-size: 20px;
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin-bottom: 30px;
 }
