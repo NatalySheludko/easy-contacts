@@ -1,10 +1,7 @@
 .menuList {
-	display: flex;	
-	flex-wrap: wrap;
+  padding: 0 16px;
 }
 
 .item {
-display: flex;
-margin-bottom: 20px;
-width: calc(100% / 4);
+  margin-bottom: 20px;
 }
