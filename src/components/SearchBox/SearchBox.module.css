@@ -1,27 +1,27 @@
-.filter {
-	margin: 0 auto;
-	margin-bottom: 60px;
-  width: 90%;
-  max-width: 450px;
-  background-color: #fff;
-  padding: 20px 30px;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  border: 1px solid rgba(17, 12, 46, 0.15);
-  border-radius: 10px;
-}
-
-.inputLabel {
-  display: block;
-  font-size: 15px;
-  color: #111;
-  margin-bottom: 10px;
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
 }
 
 .input {
+  padding: 10px 20px 10px 40px;
   width: 100%;
-  padding: 10px;
+  border: none;
   outline: 1px solid transparent;
-  border-radius: 4px;
-  border: 1px solid #888;
-  font-size: 15px;
+  font-size: 16px;
+  border-bottom: 2px solid #141010;
+  background: transparent;
+}
+
+.iconPosition {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 5px;
+  top: 100%;
+  transform: translateY(-100%);
+  fill: #2e2f42;
 }
