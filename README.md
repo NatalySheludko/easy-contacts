@@ -16,4 +16,5 @@ The main development environment for the project was Microsoft Visual Studio Cod
 The project provided the opportunity to develop skills in research, problem solving and analytical thinking.
 
 ## Design Patterns:
+Adaptive design for desktop (1440px).
 Various design patterns were applied during the development process to ensure clean and understandable code, as well as to enhance the scalability and maintainability of the project.
