@@ -9,22 +9,19 @@ import { selectLoading } from "../../redux/contacts/selectors";
 
 import { fetchContacts } from "../../redux/contacts/operations";
 
-
-
 export default function ContactsPage() {
-	const dispatch = useDispatch();
-	
+  const dispatch = useDispatch();	
   const isLoading = useSelector(selectLoading);
 
   useEffect(() => {
     dispatch(fetchContacts());
-	}, [dispatch]);
+  }, [dispatch]);
 	
   return (
-		<div>
-			<ContactForm/>
-			<div>{ isLoading && <Loading/>}</div>
+   <div>
+      <ContactForm/>
+      <div>{ isLoading && <Loading/> }</div>
       <ContactList />
-    </div>
+   </div>
   );
 }
